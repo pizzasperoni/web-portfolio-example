@@ -44,6 +44,23 @@
 			border-radius: 50%;
 		}
 	}
+	.about-info {
+		grid-template-areas:
+		'bioimage'
+		'bio'
+		'job1'
+		'job2'
+		'job3';
+		grid-template-columns: 1fr;
+
+		.bio-image {
+			background-image: url('../img/profile-xm.jpg');
+			width: 90px;
+			height: 90px;
+			border-radius: 50%;
+		}
+	}
+
 }
 //Smartphones
 @include mediaSm {
