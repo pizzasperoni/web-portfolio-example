@@ -228,6 +228,8 @@ main {
     font-size: 10vh; }
   main {
     background-color: #444; }
+  main#about h1 {
+    font-size: 10vh; }
   .menu-branding .portrait {
     background-image: url("../img/profile-xm.jpg");
     width: 90px;
